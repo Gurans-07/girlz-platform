@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-sans text-gray-900;
+}
+
+.btn-primary {
+  @apply px-6 py-2 bg-gradient-to-r from-purple-600 to-pink-600 text-white rounded-full hover:shadow-lg transition;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow hover:shadow-lg transition;
+}
